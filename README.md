@@ -35,9 +35,7 @@ Once you finish the assignment, submit a URL link to your repository or your pul
   - Names are their own object and have a `firstName`, `lastName`, `middleName` and `salutation`.
   - Names should be embedded within the `Contact` entity and not be stored in a separate table.
 
-3. List 3 tasks that can be accomplished with native SQL that you cannot do with JPQL. Explain why you would choose to use native SQL over JPQL for these specific tasks.
-
-Native SQL vs JPQL
+3) Native SQL vs JPQL
 1. Complex Arithmetic in Aggregate Functions
 
 Task: Calculating the total value of items in an order, such as SUM(price * quantity).
