@@ -1,4 +1,4 @@
-package org.example.lab_intermediate_jpa;
+package org.example.lab_intermediate_jpa.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.PrimaryKeyJoinColumn;
@@ -7,7 +7,7 @@ import jakarta.persistence.Table;
 @Entity
 @PrimaryKeyJoinColumn(name="billable_id")
 @Table(name="billable_task")
-public class BillableTask extends Task{
+public class BillableTask extends Task {
     private Integer hourlyRate;
     public BillableTask(){
         super();

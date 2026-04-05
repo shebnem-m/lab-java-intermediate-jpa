@@ -1,4 +1,4 @@
-package org.example.lab_intermediate_jpa;
+package org.example.lab_intermediate_jpa.model;
 
 import jakarta.persistence.Embeddable;
 
